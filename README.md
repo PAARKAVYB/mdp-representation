@@ -1,16 +1,16 @@
 # MDP REPRESENTATION
 
 ## AIM:
-To represent a Markov Decision Process(MDP) problem in the following ways.
+To represent a Markov Decision Process (MDP) problem in the following ways.
 
     1.Text representation
     2.Graphical representation
-    3.Python - Dictonary representation
+    3.Python - Dictionary representation
 
 ## PROBLEM STATEMENT:
 
 ### PROBLEM DESCRIPTION
-Consider a situation a player(AGENT) is playing in the football field.The aim of the player is to place the ball in goal state.
+Consider a situation a player (AGENT) is playing in the football field. The aim of the player is to place the ball in goal state.
 
 ### STATE SPACE
 {BAP,BG,BOB,BWP} - {0,1,2,3} where,
@@ -76,5 +76,5 @@ P
 ![output](op1.png)
 
 ## RESULT:
-Thus, the given real world problem is successfully represented in a MDP form.
+Thus, the given real-world problem is successfully represented in a MDP form.
 
