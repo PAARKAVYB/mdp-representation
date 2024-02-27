@@ -3,9 +3,9 @@
 ## AIM:
 To represent a Markov Decision Process(MDP) problem in the following ways.
 
-  1.Text representation
-  2.Graphical representation
-  3.Python - Dictonary representation
+    1.Text representation
+    2.Graphical representation
+    3.Python - Dictonary representation
 
 ## PROBLEM STATEMENT:
 
@@ -15,10 +15,10 @@ Consider a situation a player(AGENT) is playing in the football field.The aim of
 ### STATE SPACE
 {BAP,BG,BOB,BWP} - {0,1,2,3} where,
 
-BAP -> Ball is away from the player.
-BG -> Ball is in the goal state.
-BOB -> Ball is out of the Boundary.
-BWP -> Ball is with the player.
+* BAP -> Ball is away from the player.
+* BG -> Ball is in the goal state.
+* BOB -> Ball is out of the Boundary.
+* BWP -> Ball is with the player.
 
 ### SAMPLE STATE
 BAP -> 0
@@ -28,13 +28,13 @@ Ball is away from the player.
 ### ACTION SPACE
 {F,K} -{0,1} where,
 
-F -> FALL
-K -> KICK
+* F -> FALL
+* K -> KICK
 
 ### SAMPLE ACTION
 K -> 1
 
-KICK
+* KICK
 
 ### REWARD FUNCTION
 ```
