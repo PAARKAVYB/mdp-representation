@@ -1,37 +1,80 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+To represent a Markov Decision Process(MDP) problem in the following ways.
+
+  1.Text representation
+  2.Graphical representation
+  3.Python - Dictonary representation
 
 ## PROBLEM STATEMENT:
 
-### Problem Description
-Write your answer here
+### PROBLEM DESCRIPTION
+Consider a situation a player(AGENT) is playing in the football field.The aim of the player is to place the ball in goal state.
 
-### State Space
-Write your answer here
+### STATE SPACE
+{BAP,BG,BOB,BWP} - {0,1,2,3} where,
 
-### Sample State
-Write your answer here
+BAP -> Ball is away from the player.
+BG -> Ball is in the goal state.
+BOB -> Ball is out of the Boundary.
+BWP -> Ball is with the player.
 
-### Action Space
-Write your answer here
+### SAMPLE STATE
+BAP -> 0
 
-### Sample Action
-Write your answer here
+Ball is away from the player.
 
-### Reward Function
-Write your answer here
+### ACTION SPACE
+{F,K} -{0,1} where,
 
-### Graphical Representation
-Write your answer here
+F -> FALL
+K -> KICK
+
+### SAMPLE ACTION
+K -> 1
+
+KICK
+
+### REWARD FUNCTION
+```
+Reward function = { +1, when the ball is in the goal.
+                    0, otherwise.
+```
+
+### GRAPHICAL REPRESENTATION:
+![output](op2.jpeg)
 
 ## PYTHON REPRESENTATION:
-Write your code here
+```
+P = {
+    0:{
+        0: [(1.0,0,0.0,False)],
+        1: [(1.0,0,0.0,False)]
+        
+    },
+    1:{
+        0: [(1.0,1,1,True)],
+        1: [(1.0,1,1,True)]
+        
+    },
+    2:{
+        0: [(1.0,2,0,False)],
+        1: [(1.0,2,0,False)]
+        
+    },
+    3:{
+        0: [(1.0,0,0,False)],
+        1: [(1.0,1,1,True)]
+        
+    }
+}
+P
+```
 
 ## OUTPUT:
-Write your Python output here
+![output](op1.png)
 
 ## RESULT:
-Write your output here
+Thus, the given real world problem is successfully represented in a MDP form.
 
